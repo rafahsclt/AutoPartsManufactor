@@ -1,0 +1,40 @@
+.tableContent {
+  display: flex;
+
+  section {
+    margin: 2rem;
+    padding: 4rem;
+    background-color: var(--background-light);
+    border: 1px solid var(--background-outline);
+    border-radius: 1rem;
+    width: 100%;
+  }
+}
+
+.tableTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .tableContent {
+    section {
+      padding: 2rem;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .tableContent {
+    section {
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "sup-brake",
+  "useUnifiedTopology": true,
+  "entities": [
+      "./src/schemas/*.ts"
+  ]
+}

@@ -1,0 +1,10 @@
+.sideMenuContainer {
+  border-right: 1px solid var(--background-outline);
+}
+
+
+@media(max-width: 768px) {
+  .sideMenuContainer {
+    display: none;
+  }
+}

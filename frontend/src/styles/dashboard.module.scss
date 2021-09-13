@@ -1,0 +1,28 @@
+.dashboardContent {
+  display: flex;
+  width: 100%;
+  padding: .5rem;
+
+  section {
+    padding: 4rem;
+    margin: 2rem;
+    background-color: var(--background-light);
+    border: 1px solid var(--background-outline);
+    border-radius: 1rem;
+    width: 50%;
+    overflow-x: hidden;
+  }
+}
+
+@media(max-width: 1080px) {
+  .dashboardContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+      section {
+        width: 80%;
+        padding: 1rem;
+      }
+  }
+}

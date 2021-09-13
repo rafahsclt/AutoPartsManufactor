@@ -1,0 +1,55 @@
+.crudContainer {
+  width: 100%;
+  height: 100%;
+  background: var(--background-light);
+
+  header {
+    padding: 0 4rem;
+    width: 100%;
+    height: 20%;
+    background-color: var(--background);
+
+    section {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+
+      max-width: 1080px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      svg {
+        font-size: 2rem;
+        color: var(--text-outline);
+      }
+    }
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: -5rem;
+
+    form {
+      max-width: 360px;
+      margin-top: 1.5rem;
+
+      button {
+        width: 220px;
+        height: 40px;
+        border-radius: .7rem;
+      }
+    }
+  }
+}
+
+.crudSwitch {
+  flex-direction: row;
+}
+

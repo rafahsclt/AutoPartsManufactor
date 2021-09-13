@@ -1,0 +1,24 @@
+.signInContainer {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signInContent {
+  padding: 2rem 3rem;
+  background: var(--background);
+  border: 1px solid var(--primary);
+}
+
+.signInButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background: var(--background);
+}
